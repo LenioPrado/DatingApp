@@ -1,5 +1,7 @@
-dotnet ef migrations add InitialCreate
-dotnet ef migrations add AddedUserEntity
+--- Migrations ---
+dotnet ef migrations add MIGRATION_DETAILS
 dotnet ef database update
+dotnet ef migrations remove MIGRATION_DETAILS
 
+--- Angular - How to create a Guard using a command line ---
 ng g guard auth --skipTests
